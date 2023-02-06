@@ -11,7 +11,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "inkedin.com/in/irfaan9",
+      href: "https://www.linkedin.com/in/shaikh-irfan-995551233/",
       style: "rounded-tr-md",
     },
     {
