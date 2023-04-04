@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="  text-white h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="  text-white  w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          {/* <h2 className="text-4xl sm:text-left-7xl font-bold">Hello_____________________</h2> */}
+      <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center  px-4 md:flex-row">
+        <div className=" mt-28 flex flex-col justify-center">
+          {/* <h2 className="text-4xl sm:text-left-7xl font-bold">Hello</h2> */}
           <h3 className="text-4xl sm:text-7xl font-bold">I am Irfan Shaikh</h3>
           <br />
           <h4 className="text-4xl sm:text-4xl font-bold">I'm a Full Stack Developer</h4>
@@ -34,10 +34,10 @@ const Home = () => {
         </div>
 
 
-        <div >
+        <div className="py-5">
             <img src={HeroImage}
              alt="profile" 
-             className="rounded-4xl mx-auto w-1/3 md:w-full"/>
+             className="rounded-4xl mx-auto w-80  md:w-full sm:w-auto "/>
         </div>
       </div>
     </div>
